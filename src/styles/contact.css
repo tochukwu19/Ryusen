@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+
+.contact-content{
+    width: 80%;
+    margin: 40px auto 80px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact-content h2{
+    font-size: 35px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-weight: 700;
+    font-family: 'Dela Gothic One', cursive;
+    text-align: center;
+}
+
+.contact-content div{
+    display: inline; 
+    position: relative;
+}
+
+.contact-content div::before{
+    content: url("../images/underline.svg");
+    position: absolute;
+    top: 35px;
+    left: -150px;
+    z-index: -1;
+    transform: scale(.7);
+}
+
+.form-container{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-container button{
+    background-color: #03071E;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    border-radius: 30px;
+    width: 150px;
+    position: relative;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.form-container button::before{
+    content: url("../images/arrow.svg");
+    position: absolute;
+    top: -100px;
+    left: 150px;
+    z-index: -1;
+    transform: scale(.7);
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.form-field label{
+    font-size: 16px;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.form-field input{
+    padding: 15px 0px 15px 0px;
+    font-family: inherit;
+    border: none;
+    border-bottom: 1px solid #D4D0ED;
+    font-size: 16px;
+    outline: none;
+}
+
+.form-field input:focus{
+    border-bottom: 1px solid #FFBA08;
+}
+
+.mobileBr{
+    display: none;
+}
+
+
+@media only screen and (max-width: 960px){
+
+    .contact-content h2{
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .contact-content div::before{
+        transform: scale(.5);
+    }
+
+}
+
+@media only screen and (max-width: 700px){
+    .contact-content{
+        width: 90%;
+    }
+
+    .mobileBr{
+        display: block;
+    }
+
+    .form-container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-container button::before{
+        display: none;
+    }
+
+    .form-field{
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .form-container button{
+        margin: 30px auto;
+    }
+
+    .contact-content div::before{
+        left: -100px;
+    }
+}

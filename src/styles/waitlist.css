@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+
+.waitlist-container{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.waitlist-container h2{
+    font-size: 35px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-weight: 700;
+    font-family: 'Dela Gothic One', cursive;
+    text-align: center;
+}
+
+.waitlist-container .ampersand, .waitlist-container .scribble{
+    display: inline; 
+    position: relative;
+}
+
+.waitlist-container .ampersand::before{
+    content: url("../images/ampersand.svg");
+    position: absolute;
+    top: -75px;
+    left: -75px;
+    z-index: -1;
+    transform: scale(.8);
+}
+
+.waitlist-container .scribble::before{
+    content: url("../images/scribble.svg");
+    position: absolute;
+    top: -25px;
+    left: -170px;
+    z-index: -1;
+    transform: scale(.7);
+}
+
+.waitlist-container button{
+    background: #03071E;
+    padding: 15px;
+    color: #fff;
+    border-radius: 30px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+footer .dispatcher{
+    height: 250px;
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+}
+
+footer .veggieImage{
+    height: 125px;
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+}
+
+footer div p{
+    position: absolute;
+    bottom: 250px;
+    right: 100px;
+    width: 250px;
+    font-family: inherit;
+    font-weight: 600;
+    transform: rotate(7deg)
+}
+
+@media only screen and (max-width: 1000px){
+    .waitlist-container h2{
+        font-size: 25px;
+    }
+
+    .waitlist-container .ampersand::before{
+        transform: scale(.5);
+    }
+    
+    .waitlist-container .scribble::before{
+        transform: scale(.5);
+        left: -230px;
+        top: -40px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .waitlist-container{
+        width: 90%;
+    }
+
+    .waitlist-container button{
+        margin-top: 30px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 500px;
+    }
+
+    footer .dispatcher, footer .veggieImage, footer > div > p{
+        position: unset;
+        top: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    footer .veggieImage{
+        height: 90px;
+    }
+
+    footer .dispatcher{
+        transform: translateX(-100px);
+        height: 300px;
+    }
+}
+
