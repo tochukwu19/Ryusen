@@ -6,6 +6,14 @@ header{
     width: 100%;
 }
 
+.gradient{
+    position: absolute;
+    height: 400px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
 header .container{
     display: flex;
     justify-content: space-between;
@@ -60,5 +68,9 @@ header .container{
 
     .logo{
         height: 45px;
+    }
+
+    .gradient{
+        height: 150px !important;
     }
 }
