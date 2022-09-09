@@ -1,6 +1,6 @@
 import React, {useState, useRef} from 'react';
 import "../styles/contact.css";
-import { decode } from 'html-entities';
+// import { decode } from 'html-entities';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Loader from "../images/loading.gif"
@@ -8,7 +8,7 @@ import Loader from "../images/loading.gif"
 
 export default function Mailform({status, message, onValidated}) {
 
-    const [ error, setError ] = useState(null);
+    // const [ error, setError ] = useState(null);
     const [ email, setEmail ] = useState(null);
     const [ name, setName ] = useState(null);
 
@@ -17,7 +17,7 @@ export default function Mailform({status, message, onValidated}) {
 
     const handleFormSubmit = () => {
 
-        setError(null);
+        // setError(null);
     
         if ( !email || !name ) {
           toast.error( 'Please fill the required form fields', {
