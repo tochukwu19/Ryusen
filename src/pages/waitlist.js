@@ -3,17 +3,23 @@ import "../styles/waitlist.css";
 import Layout from '../components/layout';
 import Illustration from "../images/dispatcher.png";
 import Vegetables from "../images/vegetables.png";
+import { useNavigate } from 'react-router-dom';
 
 
 
 export default function Waitlist(props) {
+
+  const Navigate = useNavigate();
+
   return (
     <>
        <Layout>
           <div className='main-section'>
             <div className='waitlist-container'>
                 <h2>Restock groceries <div className='ampersand'>deliver</div><br/> meals to your customers <br/> <div className='scribble'>all in one place</div></h2>
-                <button>I definitely need this!</button>
+                <button onClick={()=> Navigate("/contact", {
+                  replace: true
+                })}>I definitely need this!</button>
             </div>
 
             <footer>
