@@ -12,7 +12,7 @@ export default function Contact(props) {
 
   useEffect(() => {
     console.log(MAILCHIMP_URL)
-  }, [])
+  }, [MAILCHIMP_URL])
   
 
   return (
