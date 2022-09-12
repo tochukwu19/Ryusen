@@ -14,7 +14,7 @@ export default function About(props) {
     initClassName: 'aos-init', // class applied after initialization
     animatedClassName: 'aos-animate', // class applied on animation
     useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-    // once: true
+    once: true
   });
 
   return (
@@ -24,24 +24,24 @@ export default function About(props) {
                 <div className='container'>
                     <div className='about-text'>
                         <h2
-                          data-aos="fade-up" 
+                          data-aos="fade-down" 
                           data-aos-duration="2000"
                           data-aos-easing="ease-in-out" 
                         >A full course meal</h2>
                         <p
-                          data-aos="fade-up" 
+                          data-aos="fade-down" 
                           data-aos-duration="2000"
                           data-aos-easing="ease-in-out"
                           data-aos-delay="500"
                         >We imagine a world for food businesses, where operating and making profit is as seamless as the tap of a few buttons.</p>
                         <p
-                          data-aos="fade-up" 
+                          data-aos="fade-down" 
                           data-aos-duration="2000"
                           data-aos-easing="ease-in-out"
                           data-aos-delay="1000" 
                         >As an online food vendor, your two greatest assets are money and time and we help you save both. On ryusen, you can buy all the groceries and supplies you need to cook at highly affordable prices and deliver meals to your customers easily and quickly. This way you can focus on just making tasty meals and profit. It’s a full course meal on the ryusen side of life. Who wouldn’t want in?</p>
                         <button 
-                          data-aos="fade-up" 
+                          data-aos="fade-in" 
                           data-aos-duration="2000"
                           data-aos-easing="ease-in-out"
                           data-aos-delay="1500"

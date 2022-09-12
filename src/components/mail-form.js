@@ -23,7 +23,7 @@ export default function Mailform({status, message, onValidated}) {
         initClassName: 'aos-init', // class applied after initialization
         animatedClassName: 'aos-animate', // class applied on animation
         useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-        // once: true
+        once: true
       });
 
     const handleFormSubmit = () => {

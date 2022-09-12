@@ -87,6 +87,7 @@ footer div h3{
     transform: rotate(7deg);
     font-weight: 600;
     font-family: 'Dela Gothic One', cursive;
+    margin: 0 auto;
 }
 
 
@@ -97,7 +98,8 @@ footer div p{
     width: 250px;
     font-family: inherit;
     font-weight: 600;
-    transform: rotate(7deg)
+    transform: rotate(7deg);
+    margin: 10px auto;
 }
 
 @media only screen and (max-width: 1000px){
@@ -119,7 +121,6 @@ footer div p{
 @media only screen and (max-width: 800px){
     .main-section{
         height: auto;
-        background-size: 300px;
     }
 
     .waitlist-container{
