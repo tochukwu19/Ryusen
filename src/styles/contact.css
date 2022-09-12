@@ -21,7 +21,7 @@
     font-size: 35px;
     letter-spacing: 1px;
     line-height: 1.5;
-    font-weight: 700;
+    font-weight: 500;
     font-family: 'Dela Gothic One', cursive;
     text-align: center;
 }
@@ -52,11 +52,10 @@
     background-color: #03071E;
     color: #fff;
     border: none;
-    padding: 15px;
+    padding: 24px 40px 24px 40px;
     font-weight: 600;
     font-family: inherit;
     border-radius: 30px;
-    width: 150px;
     position: relative;
     letter-spacing: 1px;
     cursor: pointer;
@@ -104,6 +103,17 @@
     display: none;
 }
 
+.response{
+    color: #03071E;
+    background-color: #fff;
+    border: 2px solid #03071E;
+    border-radius: 5px;
+    padding: 15px;
+    width: fit-content;
+    margin: 30px auto;
+    font-weight: 600;
+}
+
 
 @media only screen and (max-width: 960px){
 
@@ -147,5 +157,9 @@
 
     .contact-content div::before{
         left: -100px;
+    }
+
+    .response{
+        width: 80%;
     }
 }
