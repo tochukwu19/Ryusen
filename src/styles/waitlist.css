@@ -87,7 +87,6 @@ footer div h3{
     transform: rotate(7deg);
     font-weight: 600;
     font-family: 'Dela Gothic One', cursive;
-    margin: 0 auto;
 }
 
 
@@ -99,7 +98,6 @@ footer div p{
     font-family: inherit;
     font-weight: 600;
     transform: rotate(7deg);
-    margin: 10px auto;
 }
 
 @media only screen and (max-width: 1000px){
@@ -148,6 +146,14 @@ footer div p{
         top: 0;
         bottom: 0;
         left: 0;
+    }
+
+    footer > div > h3{
+        margin: 0 auto;
+    }
+
+    footer > div > p{
+        margin: 10px auto;
     }
 
     footer .veggieImage{
