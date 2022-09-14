@@ -8,6 +8,10 @@ header{
     width: 100%;
 }
 
+main{
+    height: 100%;
+}
+
 .gradient{
     position: absolute;
     height: 400px;
