@@ -34,8 +34,8 @@ export default function Contact(props) {
                   data-aos="fade-up" 
                   data-aos-duration="2000"
                   data-aos-easing="ease-in-out"
-                >Just like you, we’ve been‍ cooking 👩‍🍳 <br/>
-                Be the first to know when<br className='mobileBr'/> <div>it’s ready!</div>🔥</h2>
+                >Just like you, we've been cooking 👩‍🍳 <br/>
+                Be the first to know when<br className='mobileBr'/> <div>it's ready!</div>🔥</h2>
             </div>
 
             <MailchimpSubscribe

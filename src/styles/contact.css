@@ -2,7 +2,7 @@
 
 .contact-section{
     width: 100%;
-    height: calc(100vh - 100px);
+    height: inherit;
     background-image: url("../images/yellowshade.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -141,6 +141,7 @@
     .form-container{
         flex-direction: column;
         align-items: flex-start;
+        margin: 0 auto;
     }
 
     .form-container button::before{
