@@ -33,18 +33,18 @@ export default function Waitlist(props) {
                   data-aos-easing="ease-in-out">Restock groceries <div className='ampersand'>deliver</div><br/> meals to your customers <br/> <div className='scribble'>all in one place</div></h2>
                   <div className="sup-text">
                     <h3 
-                      // data-aos="fade-up" 
-                      //     data-aos-duration="2000"
-                      //     data-aos-easing="ease-in-out"
-                      //     data-aos-delay="500"
+                          data-aos="fade-up" 
+                          data-aos-duration="2000"
+                          data-aos-easing="ease-in-out"
+                          data-aos-delay="500"
                         >
                         Helping online food vendors stay online 
                     </h3>
                     <p  
-                      // data-aos="fade-up" 
-                      //     data-aos-duration="2000"
-                      //     data-aos-easing="ease-in-out"
-                      //     data-aos-delay="1000"
+                          data-aos="fade-up" 
+                          data-aos-duration="2000"
+                          data-aos-easing="ease-in-out"
+                          data-aos-delay="1000"
                         >
                         We handle all the difficult parts so you can focus on making meals for your customers.
                     </p>
