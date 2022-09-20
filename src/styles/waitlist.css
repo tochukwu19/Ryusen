@@ -11,15 +11,20 @@
 
 .waitlist-container{
     width: 80%;
-    margin: 30px auto;
+    margin: 0px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.sup-text{
+    width: 350px;
+    text-align: center;
+}
+
 .waitlist-container h2{
-    font-size: 42.5px;
+    font-size: 40px;
     letter-spacing: 1px;
     line-height: 1.5;
     font-weight: 400;
@@ -60,7 +65,7 @@
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    margin-top: 30px;
+    margin-top: 10px;
     cursor: pointer;
 }
 
@@ -103,7 +108,7 @@ footer div p{
 
 @media only screen and (max-width: 1000px){
     .waitlist-container h2{
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .waitlist-container .ampersand::before{
@@ -112,8 +117,8 @@ footer div p{
     
     .waitlist-container .scribble::before{
         transform: scale(.5);
-        left: -230px;
-        top: -40px;
+        left: -212px;
+        top: -35px;
     }
 }
 
@@ -124,7 +129,7 @@ footer div p{
 
     .waitlist-container{
         width: 90%;
-        margin: 30px auto 100px auto;
+        margin: 30px auto 0px auto;
     }
 
     .waitlist-container button{
@@ -135,7 +140,7 @@ footer div p{
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        height: 500px;
+        /* height: 500px; */
     }
 
     footer > div{

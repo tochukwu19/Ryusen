@@ -11,7 +11,7 @@ export default function Layout(props) {
     <section>
         <header>
             <div className='container'>
-                <img alt="gradient" src={Gradient} className="gradient"/>
+                <img alt="gradient" src={Gradient} className="gradient"/> 
                 <Link to="/"><img className='logo' src={Logo} alt="Logo"/></Link>
                 <ul className='navList'>
                     <Link to="/contact"><li>Contact</li></Link>
