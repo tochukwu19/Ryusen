@@ -30,6 +30,10 @@ header .container{
     margin: auto;
 }
 
+.logo{
+    height: 35px;
+}
+
 .navList{
     list-style-type: none;
     display: flex;
@@ -38,7 +42,7 @@ header .container{
 }
 
 .navList li{
-   font-weight: bold;
+   font-weight: 500;
    font-size: 16px;
    cursor: pointer;
    color: black;
@@ -78,7 +82,7 @@ header .container{
     }
 
     .logo{
-        height: 45px;
+        height: 30px;
     }
 
     .gradient{

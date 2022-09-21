@@ -1,6 +1,6 @@
 import React from 'react';
 import "../styles/layout.css";
-import Logo from "../images/logo.svg";
+import Logo from "../images/LOGO.png";
 import { Link } from "react-router-dom";
 import Gradient from "../images/blueshade.png";
 
